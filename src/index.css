@@ -138,7 +138,7 @@ input:focus{
   @apply bg-gray-300 
 }
 #widths{
-  @apply w-[1px] h-[20px] bg-floralWhite
+  @apply w-[1px] h-[20px] bg-gray-500
 }
 #explores:hover{
   @apply shadow-2xl

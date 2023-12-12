@@ -18,7 +18,7 @@ const Header = () => {
                 <div id="logo">
                     <h1>HomeEstate</h1>
                 </div>
-                <div id='navs' className={`md:min-h-fit sm:absolute  md:block md:static z-10 top-[60px] sm:${toggle ? 'block' : 'hidden'} sm:bg-gray-500 left-0 md:w-auto w-full flex items-center px-5`}>
+                <div id='navs' className={`md:min-h-fit sm:absolute sm:hidden md:block md:static z-10 top-[60px] sm:${toggle ? 'block' : 'hidden'} sm:bg-gray-500 left-0 md:w-auto w-full flex items-center px-5`}>
                     <ul className=' flex md:flex-row flex-col md:items-center md:gap-[4w] gap-8'>
                         <li>
                             <Link  to="/">HOME</Link>
