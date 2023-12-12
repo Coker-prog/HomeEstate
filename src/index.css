@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+  @apply flex items-center justify-between p-5 text-floralWhite md:w-[85%] md:mx-auto
+}
+#logo h1{
+  @apply text-2xl font-medium
+}
+li a:active{
+  @apply text-orange-600 
+}
+#home{
+  @apply bg-skype lg:h-[100vh] md:h-[70vh] bg-center bg-cover object-cover
+}
+#home_text{
+  @apply h-[50vh]   flex flex-col items-center justify-center text-floralWhite
+}
+#home_text h1{
+  @apply md:text-4xl md:font-bold md:w-[750px] sm:w-[450px] sm:text-2xl px-[25px] font-medium text-floralWhite  text-center tracking-widest
+}
+#home_text p{
+  @apply mt-5 text-lg text-center text-floralWhite sm:w-[350px]
+}
+#inputs{
+  @apply md:flex items-center justify-center sm:w-[100%] sm:hidden md:block  md:mt-[-20px5] 
+}
+#home_input{
+  @apply relative
+}
+#home_input p{
+  @apply absolute left-3 top-2 text-xl 
+}
+/* #home_inputs svg{
+  @apply  mr-[98px]
+} */
+#Ex_Place{
+  @apply p-3 xl:w-[450px] pl-[78px]  pr-[55px] 
+}
+#Ex_Lekki{
+  @apply p-3 xl:w-[450px] pl-[98px] pr-[50px] 
+}
+/* input{
+  @apply pr-[98px] 
+} */
+input:focus{
+  @apply outline-none 
+}
+#width{
+  @apply w-1 h-[46px] bg-red-800
+}
+#search p{
+  @apply bg-red-700 p-3 flex items-center ml-3
+}
+#home_list{
+  @apply lg:w-[70%] lg:m-[auto] lg:relative lg:mb-[180px] sm:w-[85%] sm:m-[auto]
+}
+#list{
+  @apply grid xl:grid-cols-5 lg:grid-cols-3 lg:gap-y-7 md:grid-cols-3 md:gap-y-4  gap-x-8 text-center lg:absolute lg:top-[-70px] sm:mt-[50px] lg:mt-[0] 
+}
+#list div{
+  @apply bg-white shadow-xl p-[50px] rounded-lg mb-[20px]
+}
+#list svg{
+  @apply m-[auto] text-4xl mb-3
+}
+#bt{
+  @apply text-xl font-medium cursor-pointer mb-1
+}
+#list > div:hover{
+  @apply bg-red-500 text-floralWhite
+}
+#works{
+  @apply lg:mt-[390px] xl:mt-[0]
+}
+#work_title{
+  @apply text-center py-[70px]
+}
+#work_title h1{
+  @apply text-2xl pb-[20px] 
+}
+#works p{
+  @apply text-base font-normal
+}
+#cards{
+  @apply grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 md:gap-y-6  lg:w-[70%] lg:m-[auto] sm:w-[85%] sm:m-[auto] gap-x-6 
+}
+#cards div{
+  @apply bg-gray-200 text-center py-7 px-5 
+}
+#cards svg{
+@apply m-[auto] text-6xl bg-gray-100 p-2 rounded-full mt-5
+}
+#cards svg:hover{
+  @apply bg-white text-red-600
+}
+#card{
+@apply mb-[50px]
+}
+#card h3{
+  @apply py-3
+}
+#card p{
+  @apply pb-5
+}
+#card a{
+  @apply border p-2 
+}
+#card a:active{
+  @apply bg-white text-red-600 border-0
+}
+#cards div:hover{
+  @apply bg-red-600
+}
+#explore{
+  @apply  my-[150px] pb-[150px] lg:w-[70%] lg:m-[auto] sm:w-[85%] sm:m-[auto]
+}
+#container{
+  @apply grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-5 
+}
+#name{
+  @apply py-2 text-xl cursor-pointer
+}
+#rates{
+  @apply flex items-center justify-between
+}
+#about{
+  @apply flex py-5
+}
+#about p{
+  @apply pl-3
+}
+#time{
+  @apply py-3 text-green-600
+}
+#explores{
+  @apply bg-gray-300 
+}
+#widths{
+  @apply w-[1px] h-[20px] bg-floralWhite
+}
+#explores:hover{
+  @apply shadow-2xl
+}
+#footer{
+  @apply my-[50px]
+}
+.footer_logo{
+  @apply flex items-center justify-center mt-5 cursor-pointer
+}
+.footer_logo svg{
+  @apply px-5 text-[65px]
+}
+.footer_text{
+  @apply text-center mb-3 
+}
+.footer_text a{
+  @apply px-5
+}
+.footer_right{
+  @apply text-center
+}

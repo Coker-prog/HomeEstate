@@ -1,0 +1,78 @@
+
+
+{
+    "Estates":[
+        {
+            "name":"Home Cafe",
+            "about":" Only one network of agents represents the longest standing tastemaker in the world. In the spirit of innovation",
+            "ratings": "3.5",
+            "rates": "5 Ratings",
+            "From": "5$-30$",
+            "locations": "Cafe",
+            "img": "https://images.unsplash.com/photo-1638725127387-9974c76769a0?q=80&w=3276&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "time":"Close Now",
+            "id":5,
+            "man":"https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"Swim And Dine Resort",
+            "about":" Only one network of agents represents the longest standing tastemaker in the world. In the spirit of innovation",
+            "ratings": "5.0",
+            "rates": "13 Ratings",
+            "From": "5k$-30k$",
+            "locations": "Real Estate",
+            "img": "https://plus.unsplash.com/premium_photo-1687862745559-d6019959d481?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "time":"Open Now",
+            "id": 1,
+            "man":"https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"Europe Tour",
+            "about":" Only one network of agents represents the longest standing tastemaker in the world. In the spirit of innovation",
+            "ratings": "5.0",
+            "rates": "10 Ratings",
+            "From": "50$-500$",
+            "locations": "Destination",
+            "img": "https://images.unsplash.com/photo-1465778893808-9b3d1b443be4?q=80&w=3215&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "time":"Close Now",
+            "id":2,
+            "man":"https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"Luxury Car",
+            "about":" Only one network of agents represents the longest standing tastemaker in the world. In the spirit of innovation",
+            "ratings": "5.0",
+            "rates": "13 Ratings",
+            "From": "50k$-300k$",
+            "locations": "Automotion",
+            "img": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "time":"Open Now",
+            "id":3,
+            "man":"https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"Food",
+            "about":" Only one network of agents represents the longest standing tastemaker in the world. In the spirit of innovation",
+            "ratings": "4.5",
+            "rates": "8 Ratings",
+            "From": "20$-100$",
+            "locations": "Cafe",
+            "img": "https://images.unsplash.com/photo-1569058242252-623df46b5025?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "time":"Close Now",
+            "id":4,
+            "man":"https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        },
+        {
+            "name":"Thailand Beach",
+            "about":" Only one network of agents represents the longest standing tastemaker in the world. In the spirit of innovation",
+            "ratings": "5.0",
+            "rates": "10 Ratings",
+            "From": "5k$-10k$",
+            "locations": "Place",
+            "img": "https://plus.unsplash.com/premium_photo-1663119029722-0da758fa1181?q=80&w=3293&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "time":"Close Now",
+            "id":6,
+            "man":"https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=3271&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        }
+    ]
+}
