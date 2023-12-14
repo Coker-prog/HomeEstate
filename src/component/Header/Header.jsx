@@ -1,53 +1,63 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import { MdOutlineMenu } from "react-icons/md";
 import { IoMdClose } from "react-icons/io";
 const Header = () => {
-    
-    const [toggle, setToggle] = useState(false)
+  const [toggle, setToggle] = useState(false);
 
-    const handleClick = () =>{
-        setToggle((prevClick) => !prevClick )
-        console.log(toggle)
-    }
+  const handleClick = () => {
+    setToggle((prevClick) => !prevClick);
+    console.log(toggle);
+  };
   return (
     <React.Fragment>
-        <header className=' bg-gray-500 '>
-            <nav className=' '>
-                <div id="logo">
-                    <h1>HomeEstate</h1>
-                </div>
-                <div id='navs' className={`md:min-h-fit sm:absolute  md:block md:static z-10 top-[60px] sm:${ toggle ? 'block' : 'hidden'} sm:bg-gray-500 left-0 md:w-auto w-full flex items-center px-5`}>
-                    <ul className=' flex md:flex-row flex-col md:items-center md:gap-[4w] gap-8'>
-                        <li>
-                            <Link  to="/">HOME</Link>
-                        </li>
-                        <li>
-                            <Link to="/home">ABOUT US</Link>
-                        </li>
-                        <li>
-                            <Link to="#">BLOG</Link>
-                        </li>
-                        <li>
-                            <Link to="#">REVIEW</Link>
-                        </li>
-                        <li>
-                            <Link to="#">CONTACT</Link>
-                        </li>
-                    </ul>
-                </div>
-                <div className='md:hidden text-2xl cursor-pointer top[9%]'>
-                    {
-                        !toggle ? <MdOutlineMenu  onClick={handleClick}/>
-                        :
-                        <IoMdClose onClick={handleClick}/>
-                    }
-                    
-                </div>
-            </nav>
-        </header>
-    </React.Fragment>
-  )
-}
+      <header className=" bg-gray-500 flex items-center justify-between h-[60px] ">
+          <div id="logo" className="sm:pl-[20px] md:pl-[80px]">
+            <h1>HomeEstate</h1>
+          </div>
+          <div className="sm:hidden md:static  md:flex pr-[80px]">
+            <Link to={"/"} className="px-5">
+              <p>HOME</p>
+            </Link>
+            <Link to={"#"} className="px-5">
+              <p>ABOUT US</p>
+            </Link>
+            <Link to={"#"} className="px-5">
+              <p>SERVICE</p>
+            </Link>
+            <Link to={"#"} className="px-5">
+              <p>CONTACT</p>
+            </Link>
+          </div>
 
-export default Header
+          <div className="relative md:hidden pr-[20px] ">
+            <div className="text-2xl cursor-pointer">
+              {!toggle ? (
+                <MdOutlineMenu onClick={handleClick} />
+              ) : (
+                <IoMdClose onClick={handleClick} />
+              )}
+            </div>
+            {toggle && (
+              <div className="absolute right-0 bg-gray-500 w-[100vw] mt-[16px] pl-[20px]">
+                <Link to={"/"} className="px-5">
+                  <p>HOME</p>
+                </Link>
+                <Link to={"#"} className="px-5">
+                  <p>ABOUT US</p>
+                </Link>
+                <Link to={"#"} className="px-5">
+                  <p>SERVICE</p>
+                </Link>
+                <Link to={"#"} className="px-5">
+                  <p>CONTACT</p>
+                </Link>
+              </div>
+            )}
+          </div>
+      </header>
+    </React.Fragment>
+  );
+};
+
+export default Header;

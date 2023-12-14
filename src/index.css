@@ -2,9 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-nav{
-  @apply flex items-center justify-between p-5 text-floralWhite md:w-[85%] md:mx-auto
-}
+
 #logo h1{
   @apply text-2xl font-medium
 }
@@ -15,16 +13,16 @@ li a:active{
   @apply bg-skype lg:h-[100vh] md:h-[70vh] bg-center bg-cover object-cover
 }
 #home_text{
-  @apply h-[50vh]   flex flex-col items-center justify-center text-floralWhite
+  @apply h-[50vh] flex flex-col items-center justify-center text-floralWhite
 }
 #home_text h1{
-  @apply md:text-4xl md:font-bold md:w-[750px] sm:w-[450px] sm:text-2xl px-[25px] font-medium text-floralWhite  text-center tracking-widest
+  @apply md:text-4xl md:font-bold md:w-[750px] sm:w-[350px] sm:text-lg  px-[25px] font-medium text-floralWhite  text-center tracking-widest
 }
 #home_text p{
   @apply mt-5 text-lg text-center text-floralWhite sm:w-[350px]
 }
 #inputs{
-  @apply md:flex items-center justify-center sm:w-[100%] sm:hidden md:block  md:mt-[-20px5] 
+  @apply md:flex items-center justify-center sm:w-[100%] sm:hidden  md:mt-[-20px5] 
 }
 #home_input{
   @apply relative
@@ -54,7 +52,7 @@ input:focus{
   @apply bg-red-700 p-3 flex items-center ml-3
 }
 #home_list{
-  @apply lg:w-[70%] lg:m-[auto] lg:relative lg:mb-[180px] sm:w-[85%] sm:m-[auto]
+  @apply lg:w-[70%] lg:m-[auto] lg:relative lg:mb-[180px] sm:w-[85%] sm:mx-[auto]
 }
 #list{
   @apply grid xl:grid-cols-5 lg:grid-cols-3 lg:gap-y-7 md:grid-cols-3 md:gap-y-4  gap-x-8 text-center lg:absolute lg:top-[-70px] sm:mt-[50px] lg:mt-[0] 
@@ -156,7 +154,7 @@ input:focus{
   @apply text-center mb-3 
 }
 .footer_text a{
-  @apply px-5
+  @apply px-1 md:px-5
 }
 .footer_right{
   @apply text-center
